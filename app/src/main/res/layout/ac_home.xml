@@ -302,6 +302,7 @@
             android:src="@drawable/ic_statistics" />
 
         <ImageView
+            android:id="@+id/ic_gear"
             android:layout_width="0dp"
             android:layout_height="36dp"
             android:layout_weight="0.25"

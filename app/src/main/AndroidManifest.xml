@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RecyclerActivity"></activity>
+        <activity
+            android:name=".XActivity"
+            android:label="@string/title_activity_x"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:screenOrientation="sensorPortrait">

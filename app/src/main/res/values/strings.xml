@@ -10,4 +10,6 @@
     <string name="february">February</string>
     <string name="april">April</string>
     <string name="june">June</string>
+    <string name="title_activity_x">XActivity</string>
+    <string name="recycler_activity">RecyclerActivity</string>
 </resources>

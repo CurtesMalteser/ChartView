@@ -1,6 +1,9 @@
 package com.rd.chartview;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +28,15 @@ public class HomeActivity extends AppCompatActivity {
 		ChartView chartView = findViewById(R.id.charView);
 		List<InputData> dataList = createChartData();
 		chartView.setData(dataList);
+
+		ImageView icGear = findViewById(R.id.ic_gear);
+		icGear.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getBaseContext(), RecyclerActivity.class);
+				startActivity(i);
+			}
+		});
 	}
 
 	@NonNull
