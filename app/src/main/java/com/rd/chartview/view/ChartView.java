@@ -4,9 +4,12 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.os.Build;
-import android.support.annotation.Nullable;
+
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.annotation.Nullable;
+
 import com.rd.chartview.view.draw.data.Chart;
 import com.rd.chartview.view.draw.data.InputData;
 import com.rd.chartview.view.utils.ValueUtils;

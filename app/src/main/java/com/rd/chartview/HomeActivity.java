@@ -1,8 +1,10 @@
 package com.rd.chartview;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.rd.chartview.view.ChartView;
 import com.rd.chartview.view.draw.data.InputData;
 
